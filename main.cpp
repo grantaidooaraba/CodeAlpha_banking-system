@@ -7,7 +7,7 @@ using namespace std;
 
 
 
-// ================= TRANSACTION CLASS =================
+// TRANSACTION CLASS 
 class Transaction {
 
 public:
@@ -27,7 +27,7 @@ public:
 
 
 
-// ================= ACCOUNT CLASS =================
+//  ACCOUNT CLASS 
 class Account {
 
 private:
@@ -193,7 +193,7 @@ public:
 
 
 
-// ================= CUSTOMER CLASS =================
+//  CUSTOMER CLASS 
 class Customer {
 
 private:
@@ -262,11 +262,6 @@ public:
 };
 
 
-
-
-
-
-// ================= MAIN FUNCTION =================
 int main() {
 
     string customerName;
@@ -330,7 +325,7 @@ int main() {
 
 
 
-        // ================= DEPOSIT =================
+        //  DEPOSIT 
         if (choice == 1) {
 
             int accNum;
@@ -358,7 +353,7 @@ int main() {
 
 
 
-        // ================= WITHDRAW =================
+        //  WITHDRAW 
         else if (choice == 2) {
 
             int accNum;
@@ -386,7 +381,7 @@ int main() {
 
 
 
-        // ================= TRANSFER =================
+        //  TRANSFER 
         else if (choice == 3) {
 
             int senderNum;
@@ -428,7 +423,7 @@ int main() {
 
 
 
-        // ================= VIEW BALANCE =================
+        //  VIEW BALANCE 
         else if (choice == 4) {
 
             int accNum;
@@ -452,7 +447,7 @@ int main() {
 
 
 
-        // ================= TRANSACTION HISTORY =================
+        //  TRANSACTION HISTORY
         else if (choice == 5) {
 
             int accNum;
@@ -476,7 +471,7 @@ int main() {
 
 
 
-        // ================= ACCOUNT INFO =================
+        //  ACCOUNT INFO 
         else if (choice == 6) {
 
             int accNum;
@@ -500,7 +495,7 @@ int main() {
 
 
 
-        // ================= EXIT =================
+        //  EXIT
         else if (choice == 7) {
 
             cout << "Exiting program...\n";
@@ -510,7 +505,7 @@ int main() {
 
 
 
-        // ================= INVALID =================
+        //  INVALID 
         else {
 
             cout << "Invalid choice.\n";
